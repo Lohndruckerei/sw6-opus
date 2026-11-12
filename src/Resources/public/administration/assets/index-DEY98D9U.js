@@ -1,0 +1,12 @@
+import{S as s,a}from"./ld-opus-DER9iOt2.js";const n={template:`
+<span
+    class="lu-status"
+    :class="'lu-status--' + state"
+>
+    <mt-icon
+        class="lu-status__icon"
+        :name="icon"
+        size="11px"
+    />
+    <span>{{ label }}</span>
+</span>`,props:{state:{type:String,required:!0,validator:t=>a.includes(t)},label:{type:String,required:!0}},computed:{icon(){return s[this.state]}}};export{n as default};

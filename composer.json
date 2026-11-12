@@ -1,0 +1,36 @@
+{
+    "name": "lohndruckerei/ld-opus",
+    "description": "Opus – Steuerung der internen Folienproduktion: Arbeitsstationen, regelbasiertes Routing, Laufzettel, Stationsansichten. (in Entwicklung)",
+    "type": "shopware-platform-plugin",
+    "version": "0.1.0",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Lohndruckerei"
+        }
+    ],
+    "require": {
+        "php": ">=8.2",
+        "shopware/core": "~6.7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Lohndruckerei\\Opus\\": "src/"
+        }
+    },
+    "extra": {
+        "shopware-plugin-class": "Lohndruckerei\\Opus\\LdOpus",
+        "label": {
+            "de-DE": "Opus – Produktion",
+            "en-GB": "Opus – Production"
+        },
+        "description": {
+            "de-DE": "(in Entwicklung) Steuerung der internen Folienproduktion: Arbeitsstationen, regelbasiertes Routing, Laufzettel, Stationsansichten.",
+            "en-GB": "(in development) Control of in-house film production: work stations, rule-based routing, job tickets, station views."
+        },
+        "manufacturerLink": {
+            "de-DE": "https://www.lohndruckerei.eu",
+            "en-GB": "https://www.lohndruckerei.eu"
+        }
+    }
+}

@@ -1,0 +1,60 @@
+{
+  "ld-admin-design/component/chip/index.js": {
+    "file": "assets/index-CbvqSeR2.js",
+    "name": "index",
+    "src": "ld-admin-design/component/chip/index.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "main.js"
+    ]
+  },
+  "ld-admin-design/component/design-switch/index.js": {
+    "file": "assets/index-DsUV2L7z.js",
+    "name": "index",
+    "src": "ld-admin-design/component/design-switch/index.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "main.js"
+    ]
+  },
+  "ld-admin-design/component/status/index.js": {
+    "file": "assets/index-DEY98D9U.js",
+    "name": "index",
+    "src": "ld-admin-design/component/status/index.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "main.js"
+    ]
+  },
+  "ld-admin-design/component/tabs/index.js": {
+    "file": "assets/index-DJx-M-Pv.js",
+    "name": "index",
+    "src": "ld-admin-design/component/tabs/index.js",
+    "isDynamicEntry": true
+  },
+  "ld-admin-design/component/transport-chip/index.js": {
+    "file": "assets/index-wkkENmCe.js",
+    "name": "index",
+    "src": "ld-admin-design/component/transport-chip/index.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "main.js"
+    ]
+  },
+  "main.js": {
+    "file": "assets/ld-opus-DER9iOt2.js",
+    "name": "ld-opus",
+    "src": "main.js",
+    "isEntry": true,
+    "dynamicImports": [
+      "ld-admin-design/component/design-switch/index.js",
+      "ld-admin-design/component/status/index.js",
+      "ld-admin-design/component/chip/index.js",
+      "ld-admin-design/component/transport-chip/index.js",
+      "ld-admin-design/component/tabs/index.js"
+    ],
+    "css": [
+      "assets/ld-opus-BtvFezkd.css"
+    ]
+  }
+}

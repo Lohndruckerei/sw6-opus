@@ -1,0 +1,31 @@
+{
+  "base": "/bundles/ldopus/administration/",
+  "entryPoints": {
+    "ld-opus": {
+      "css": [
+        "/bundles/ldopus/administration/assets/ld-opus-BtvFezkd.css"
+      ],
+      "dynamic": [
+        "/bundles/ldopus/administration/assets/index-DsUV2L7z.js",
+        "/bundles/ldopus/administration/assets/index-DEY98D9U.js",
+        "/bundles/ldopus/administration/assets/index-CbvqSeR2.js",
+        "/bundles/ldopus/administration/assets/index-wkkENmCe.js",
+        "/bundles/ldopus/administration/assets/index-DJx-M-Pv.js"
+      ],
+      "js": [
+        "/bundles/ldopus/administration/assets/ld-opus-DER9iOt2.js"
+      ],
+      "legacy": false,
+      "preload": []
+    }
+  },
+  "legacy": false,
+  "metadatas": {},
+  "version": [
+    "7.1.0",
+    7,
+    1,
+    0
+  ],
+  "viteServer": null
+}
