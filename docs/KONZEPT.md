@@ -16,7 +16,7 @@ Stand: 2026-11-12 · Status: Konzept, Gerüst angelegt · Gesamtablauf: `sw6-ord
 | **Routing-Regel** | Bedingung über die Konfiguration → Stationen hinzufügen/entfernen | Laminat ≠ „ohne“ → Station „Laminieren“ |
 | **Laufzettel** | Jobticket (PDF) mit QR-Code, Vorschau und allen Angaben | liegt beim Material, wird an jeder Station gescannt |
 
-**Stationen heute (laut SOM, 2026):** Rip → Druck (Mimaki 160 A/B/C/D) → Laminieren → Schneiden
+**Interne Produktion = Coloroprint (COL).** Stationen heute (laut SOM, 2026): Rip → Druck (Mimaki 160 A/B/C/D) → Laminieren → Schneiden
 (Mimaki Plott, Hand schneiden, Wild) → Verpacken → Versand (GLS). Engpässe: Laminieren Ø 19 h,
 Druck Ø 12–15 h, Plott Ø 16 h Liegezeit (Details: `sw6-ordo/docs/SOM-AUSWERTUNG.md`).
 
@@ -65,6 +65,9 @@ Beispiel: *Folie, Laminat glänzend, Freiformschnitt* → Datenprüfung → Druc
 
 ## 5. Schnittstellen
 
+- Alle Stationsaktionen auch über die Admin-API, damit eine spätere **Android-App** (eigenes Projekt:
+  Station abschließen und weiterleiten, Stand verfolgen) ohne Umbau andocken kann. Kein Scanner nötig;
+  QR auf dem Laufzettel bleibt optional (Smartphone-Kamera).
 - Ordo → Opus: `JobService::createForLineItem($orderLineItemId)` (beim Freigabe-Tor).
 - Opus → Ordo: Events/Flow `opus.job.created`, `opus.step.started`, `opus.step.finished`,
   `opus.step.blocked`, `opus.job.finished` (Position versandbereit).
