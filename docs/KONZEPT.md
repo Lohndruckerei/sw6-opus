@@ -45,10 +45,10 @@ Beispiel: *Folie, Laminat glänzend, Freiformschnitt* → Datenprüfung → Druc
 
 ## 3. Stationsansicht
 
-- Vollbild, touchtauglich, je Station eine Liste „wartet / in Arbeit / fertig“, sortiert nach Termin,
+- Vollbild am PC/Laptop (kein Scanner, keine Tablets – E10), große Knöpfe, je Station eine Liste „wartet / in Arbeit / fertig“, sortiert nach Termin,
   Ampel und Express-Kennzeichen; gruppierbar nach Material (Sammeldruck).
-- **Scan-to-Start/Finish:** Laufzettel scannen (Handscanner als Tastatur) → Schritt starten; erneut
-  scannen oder großer Knopf → fertig, Job wandert zur nächsten Station.
+- **Start/Fertig per Knopf**; Job wandert zur nächsten Station. QR auf dem Laufzettel optional
+  (Suche per Auftragsnummer, später Smartphone-App).
 - **Problem melden:** Grund (Datenfehler, Material fehlt, Fehldruck/Nachdruck …) → Schritt `blocked`,
   Kundenservice wird benachrichtigt.
 - Mitarbeiter sehen nur ihre Stationen und wo ein Auftrag gerade liegt; keine Preise.
