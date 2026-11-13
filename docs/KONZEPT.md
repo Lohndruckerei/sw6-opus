@@ -16,6 +16,10 @@ Stand: 2026-11-12 · Status: Konzept, Gerüst angelegt · Gesamtablauf: `sw6-ord
 | **Routing-Regel** | Bedingung über die Konfiguration → Stationen hinzufügen/entfernen | Laminat ≠ „ohne“ → Station „Laminieren“ |
 | **Laufzettel** | Jobticket (PDF) mit QR-Code, Vorschau und allen Angaben | liegt beim Material, wird an jeder Station gescannt |
 
+**Stationen heute (laut SOM, 2026):** Rip → Druck (Mimaki 160 A/B/C/D) → Laminieren → Schneiden
+(Mimaki Plott, Hand schneiden, Wild) → Verpacken → Versand (GLS). Engpässe: Laminieren Ø 19 h,
+Druck Ø 12–15 h, Plott Ø 16 h Liegezeit (Details: `sw6-ordo/docs/SOM-AUSWERTUNG.md`).
+
 ## 2. Regelbasiertes Routing
 
 Grundidee: Eine **Standard-Route** (alle Stationen in Reihenfolge) wird durch Regeln verändert. Regeln sind
