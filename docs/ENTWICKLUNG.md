@@ -1,5 +1,8 @@
 # Entwicklung Opus
 
+Opus hat **kein Shop-Frontend**: Stationsansichten und Regeln liegen in der Administration. Deshalb eine Sitzung
+„Opus“ ohne Aufteilung. Kommt die Android-App (eigenes Projekt), spricht sie nur über die Admin-API.
+
 ## Branches
 - `main` ist immer lauffähig und im Shop getestet.
 - Arbeits-Branches `backend/<thema>` bzw. `frontend/<thema>` (Storefront), regelmäßig `main` holen.
