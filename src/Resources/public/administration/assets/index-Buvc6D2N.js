@@ -1,4 +1,4 @@
-import{T as r}from"./ld-opus-DER9iOt2.js";const o={template:`
+import{T as r}from"./ld-opus-D9Jxd-vq.js";const o={template:`
 <lu-chip
     :label="label"
     :color="config.color"

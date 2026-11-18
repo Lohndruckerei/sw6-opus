@@ -1,6 +1,6 @@
 {
   "ld-admin-design/component/chip/index.js": {
-    "file": "assets/index-CbvqSeR2.js",
+    "file": "assets/index-D-D4XvmN.js",
     "name": "index",
     "src": "ld-admin-design/component/chip/index.js",
     "isDynamicEntry": true,
@@ -9,7 +9,7 @@
     ]
   },
   "ld-admin-design/component/design-switch/index.js": {
-    "file": "assets/index-DsUV2L7z.js",
+    "file": "assets/index-z-7J9JJI.js",
     "name": "index",
     "src": "ld-admin-design/component/design-switch/index.js",
     "isDynamicEntry": true,
@@ -18,7 +18,7 @@
     ]
   },
   "ld-admin-design/component/status/index.js": {
-    "file": "assets/index-DEY98D9U.js",
+    "file": "assets/index-CApE4dn3.js",
     "name": "index",
     "src": "ld-admin-design/component/status/index.js",
     "isDynamicEntry": true,
@@ -33,7 +33,7 @@
     "isDynamicEntry": true
   },
   "ld-admin-design/component/transport-chip/index.js": {
-    "file": "assets/index-wkkENmCe.js",
+    "file": "assets/index-Buvc6D2N.js",
     "name": "index",
     "src": "ld-admin-design/component/transport-chip/index.js",
     "isDynamicEntry": true,
@@ -42,7 +42,7 @@
     ]
   },
   "main.js": {
-    "file": "assets/ld-opus-DER9iOt2.js",
+    "file": "assets/ld-opus-D9Jxd-vq.js",
     "name": "ld-opus",
     "src": "main.js",
     "isEntry": true,
@@ -54,7 +54,7 @@
       "ld-admin-design/component/tabs/index.js"
     ],
     "css": [
-      "assets/ld-opus-BtvFezkd.css"
+      "assets/ld-opus-Bdxh8k3l.css"
     ]
   }
 }

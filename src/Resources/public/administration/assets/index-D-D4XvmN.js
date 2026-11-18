@@ -1,4 +1,4 @@
-import{C as l}from"./ld-opus-DER9iOt2.js";const i={template:`
+import{C as l}from"./ld-opus-D9Jxd-vq.js";const i={template:`
 <span
     class="lu-chip"
     :style="{ '--lu-t': 'var(--lu-' + color + ')' }"
